@@ -2,34 +2,28 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <!--<link rel="icon" type="iamge/x-icon" href="">-->
-    <title>Login</title>   
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="Login_media.css">
+    <script src="Login.js" defer></script>
+    <title>Saúde na Prática</title>   
 </head>
 <body>
     <header>
-    <nav>
+        <div id="title">
+            <h1>Saúde na</h1>
+            <h1>Prática</h1>
+        </div>
+
         <ul>
-            <li>
-                <a href="ExerciciosFisicos.html">Exercícios Físicos</a>    
-            </li>
-            <li>
-                <a href="Alimentacao.html">Alimentação</a>
-            </li>
-            <li>
-                <a href="IMC.html">IMC</a>
-            </li>
-            <li>
-                <a href="QuemSomos.html">Quem Somos</a>
-            </li>
-            <li>
-                <a href="Contatos.html">Contatos</a>
-            </li>
-            <li>
-                <a href="Login.html">Login</a>
-            </li>  
+            <li><a href="ExerciciosFisicos.html">Exercícios Físicos</a></li>
+            <li><a href="Alimentacao.html">Alimentação</a></li>
+            <li><a href="IMC.html">IMC</a></li>
+            <li><a href="index.html">Quem Somos</a></li>
+            <li><a href="Contatos.html">Contatos</a></li>
+            <li><a href="Login.html" id="login-btn">Login</a></li>
         </ul>
-    </nav>
-</header>
+    </header>
     <div class ="login-container">
         <h1>Login</h1>
         <form>
@@ -43,21 +37,6 @@
 
             <!--<button type="button" onclick="redirectPage()">Entrar</button>-->
         </form>
-
-        <script>
-            function login(){
-                var user = document.getElementById(user).value;
-                var senha = document.getElementById(senha).value;
-
-                if(login == "admin" && senha == "admin123"){
-                    alert("Login realizado com sucesso");
-                    location.href = "index.html";
-                }else{
-                    alert("Usuario ou senha incorretos!");
-                }
-
-            }
-        </script>
     </div>
 </body>
 <footer>

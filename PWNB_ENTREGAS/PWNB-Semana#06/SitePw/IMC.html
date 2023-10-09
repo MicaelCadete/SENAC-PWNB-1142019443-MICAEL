@@ -2,39 +2,31 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <!--<link rel="icon" type="iamge/x-icon" href="">-->
-    <title>IMC</title>   
-    <link rel="stylesheet" href="IMC/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">  
+    <link rel="stylesheet" href="IMC.css">
+    <link rel="stylesheet" href="IMC_media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <script src="IMC/js/scripts.js" defer></script>
+    <script src="IMC.js" defer></script>
+    <title>Saúde na Prática</title> 
 </head>
 <body>
     <header>
-    <nav>
+        <div id="title">
+            <h1>Saúde na</h1>
+            <h1>Prática</h1>
+        </div>
+
         <ul>
-            <li>
-                <a href="ExerciciosFisicos.html">Exercícios Físicos</a>    
-            </li>
-            <li>
-                <a href="Alimentacao.html">Alimentação</a>
-            </li>
-            <li>
-                <a href="IMC.html">IMC</a>
-            </li>
-            <li>
-                <a href="QuemSomos.html">Quem Somos</a>
-            </li>
-            <li>
-                <a href="Contatos.html">Contatos</a>
-            </li>
-            <li>
-                <a href="Login.html">Login</a>
-            </li>  
+            <li><a href="ExerciciosFisicos.html">Exercícios Físicos</a></li>
+            <li><a href="Alimentacao.html">Alimentação</a></li>
+            <li><a href="IMC.html">IMC</a></li>
+            <li><a href="index.html">Quem Somos</a></li>
+            <li><a href="Contatos.html">Contatos</a></li>
+            <li><a href="Login.html" id="login-btn">Login</a></li>
         </ul>
-    </nav>
-</header>
+    </header>
     <div class="container">
         <div id="calc-container">
             <h2>Calcule seu Indice de Massa Corporal</h2>
@@ -70,7 +62,4 @@
         </div>
     </div>
 </body>
-<footer>
-    <p>&copy; 2023 Meu Website - Todos os direitos reservados.</p>
-</footer>
 </html>
