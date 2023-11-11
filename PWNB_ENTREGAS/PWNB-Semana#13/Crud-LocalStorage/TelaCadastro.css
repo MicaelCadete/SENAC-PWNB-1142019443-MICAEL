@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#formularioCad {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#painel{
+    width: max-content;
+    gap: 40px;
+    border: #007bff;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+h5 {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 0.7;
+}

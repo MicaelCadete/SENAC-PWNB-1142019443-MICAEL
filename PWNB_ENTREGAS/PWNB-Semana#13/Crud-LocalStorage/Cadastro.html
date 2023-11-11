@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Novo Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="TelaCadastro.css">
+    <script lang="javascript" src="RegexCadastro.js"></script>
+</head>
+<body>
+    <h1>Cadastro de Clientes</h1>
+    <form id="formularioCad" class="formulario">
+        Nome:<input type="text" id="nome" /><br />
+        Sobrenome:<input type="text" id="sobrenome" /><br />
+        Data Nascimento:<input type="date" id="nascimento" /><br />
+        CEP:<input type="text" id="cep" /><br />
+        Endereço:<input type="text" id="endereco" />
+        N#:<input type="number" id="n" />
+        <select name="Tipo de Cliente" id="plano">
+            <option disabled selected> UF </option>
+            <option value="acre">Acre</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="amapa">Amapá</option>
+            <option value="amazonas">Amazonas</option>
+            <option value="bahia">Bahia</option>
+            <option value="ceara">Ceará</option>
+            <option value="esanto">Espírito Santo</option>
+            <option value="goias">Goiás</option>
+            <option value="maranhao">Maranhão</option>
+            <option value="mgrosso">Mato Grosso</option>
+            <option value="mgsul">Mato Grosso do Sul</option>
+            <option value="mgerais">Minas Gerais</option>
+            <option value="para">Pará</option>
+            <option value="paraiba">Paraíba</option>
+            <option value="parana">Paraná</option>
+            <option value="pernambuco">Pernambuco</option>
+            <option value="piaui">Piauí</option>
+            <option value="rjaneiro">Rio de Janeiro</option>
+            <option value="rgnorte">Rio Grande do Norte</option>
+            <option value="rgsul">Rio Grande do Sul</option>
+            <option value="rondonia">Rondônia</option>
+            <option value="roraima">Roraima</option>
+            <option value="scatarina">Santa Catarina</option>
+            <option value="spaulo">São Paulo</option>
+            <option value="sergipe">Sergipe</option>
+            <option value="tocantins">Tocantins</option>
+            <option value="dfederal">Distrito Federal</option>
+        </select>
+        <button type="button" onclick="incluir();">Adicionar Cliente</button>
+        <button><a class="btn" href="ListaClientes.html">Lista Clientes</a></button>
+        <br>
+        <br>
+        <br>
+    </form>
+</body>
+</html>
