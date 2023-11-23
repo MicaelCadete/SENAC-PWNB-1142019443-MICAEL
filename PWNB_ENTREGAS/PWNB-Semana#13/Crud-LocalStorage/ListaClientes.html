@@ -4,6 +4,11 @@
     <title>Lista de Clientes</title>
     <link rel="stylesheet" type="text/css" href="TelaCadastro.css">
     <script lang="javascript" src="RegexCadastro.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            addTabela();
+        });
+    </script>
 </head>
 <body>
     <h1>Lista de Clientes</h1>
@@ -21,7 +26,8 @@
         </table>
         
     </div>
-    <button><a class="btn2" href="Cadastro.html">Lista Clientes</a></button>
+    <button><a class="btn2" href="Cadastro.html">Cadastrar Clientes</a></button>
+    <button type="button" onclick="addTabela();">Atualizar Lista </button>
     
 </body>
 </html>
