@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #title {
+    flex-direction: column;
+    line-height: 7px;
+    word-spacing: -3px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  h1 {
+    font-weight: 200;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+
+  #title:hover {
+    color: rgba(57, 255, 166, 0.744);
+    transition: color 0.75s ease;
+}
+  
+  h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: rgb(57, 255, 166, 0.744);
+    transition: 0.3s all;
+  }
+  
+  #login-btn {
+    border: 2px solid rgb(57, 255, 166, 0.744);
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  #login-btn:hover {
+    background-color: rgb(57, 255, 166, 0.744);
+    color: white;
+  }
+  
+  h1 {
+    font-weight: 200;
+  }
+  
+  h1 {
+    font-weight: 200;
+  }
+  
+  h2 {
+    font-size: 56px;
+    line-height: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 25px;
+    line-height: 10px;
+    text-align: left;
+  }
+  
+  span {
+    color: rgb(57, 255, 166, 0.744);
+  }
+  
+  p {
+    line-height: 17px;
+    text-align: justify;
+    text-indent: 40px;
+    margin-right: 250px;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  .card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+  }
+  
+  .card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: justify; 
+    font-family: sans-serif;
+    color: black; 
+  }
+  
+  .card-local {
+    font-size: 16px;
+    margin: 10px 0;
+    color: black;
+    text-align: center; 
+  }
+  
+  .card-titulo {
+    font-size: 28px;
+    margin: 15px 0;
+    color: black; 
+    text-align: center; 
+  }
+  
+  .card-texto {
+    font-size: 15px;
+    width: 250px;
+    margin: 0 auto;
+    color: black; 
+    text-align: center; 
+  }
+  
+  
+  .card-footer {
+    margin-top: 10px;
+    text-align: center;
+    cursor: auto;
+    background-color: black;
+  }
+  
+  .card-footer a {
+    color: white;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    cursor: auto;
+    font-weight: 600;
+  }
+  
+  
+  

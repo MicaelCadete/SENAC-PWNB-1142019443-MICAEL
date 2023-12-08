@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/icon.png">
+    <link rel="stylesheet" href="Login/Login.css">
+    <link rel="stylesheet" href="Cadastrar/Cadastro.css">
+    <script src="Cadastrar/Cadastrar.js"></script>
+    <title>Saúde na Prática</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <a href="index.html">
+                <h1>Saúde na</h1>
+                <h1>Prática</h1>
+            </a>
+        </div>
+        <ul>
+            <li><a href="index.html">Quem Somos</a></li>
+            <li><a href="Alimentacao.html">Alimentação</a></li>
+            <li><a href="ExerciciosFisicos.html">Exercícios Físicos</a></li>
+            <li><a href="IMC.html">IMC</a></li>
+            <li><a href="Contatos.html">Contatos</a></li>
+            <li><a href="Login.html" id="login-btn">
+                <span class="user-icon">👤 Login</span></a></li>
+        </ul>
+    </header>
+
+    <h1 id="tituloCadastro">Novo Cadastro</h1>
+    
+    <form id="formularioCad" class="formulario">
+       
+        Nome:<input type="text" id="nome" /><br />
+        Sobrenome:<input type="text" id="sobrenome" /><br />
+        Data Nascimento:<input type="date" id="nascimento" /><br />
+        CPF:<input type="text" id="cpf" /><br />
+        E-mail:<input type="email" id="email" /><br />
+        Senha:<input type="password" id="senha" /><br />
+        
+       
+        <button type="submit">Confirmar Cadastro</button>
+        
+        <br>
+        <br>
+        <br>
+    </form>
+</body>
+</html>

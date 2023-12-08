@@ -1,0 +1,120 @@
+/* Cadastro.css */
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 7px;
+    word-spacing: -3px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(57, 255, 166, 0.744);
+    transition: 0.3s all;
+}
+
+#login-btn {
+    border: 2px solid rgb(57, 255, 166, 0.744);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#login-btn:hover {
+    background-color: rgb(57, 255, 166, 0.744);
+    color: white;
+}
+
+/* Estilos específicos para a página de cadastro */
+h1 {
+    margin-top: 20px; /* Ajuste o espaçamento conforme necessário */
+}
+
+.formulario {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.formulario input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgba(30, 30, 30, 0.744);
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(52, 52, 52);
+    background: rgb(57, 255, 166, 0.744);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgba(3, 197, 110, 0.744);
+    margin-bottom: -20px;
+}
+
+h1#tituloCadastro {
+    text-align: center;
+    color: rgb(57, 255, 166, 0.744);
+    margin-top: 20px; 
+}
+
+.formulario {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+#title:hover {
+    color: rgba(57, 255, 166, 0.744);
+    transition: color 0.75s ease;
+}

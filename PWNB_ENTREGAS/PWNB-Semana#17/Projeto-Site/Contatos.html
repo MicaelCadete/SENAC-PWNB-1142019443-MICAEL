@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/icon.png">
+    <link rel="stylesheet" href="Contatos/Contatos.css">
+    <script src="Contatos/Contatos.js"></script>
+    <title>Saúde na Prática</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <a href="index.html">
+                <h1>Saúde na</h1>
+                <h1>Prática</h1>
+            </a>
+        </div>
+        <ul>
+
+            <li><a href="index.html">Quem Somos</a></li>
+            <li><a href="Alimentacao.html">Alimentação</a></li>
+            <li><a href="ExerciciosFisicos.html">Exercícios Físicos</a></li>
+            <li><a href="IMC.html">IMC</a></li>
+            <li><a href="Contatos.html">Contatos</a></li>
+            <li><a href="Login.html" id="login-btn"><span class="user-icon">👤 Login</span></a></li>
+        </ul>
+    </header>
+
+    <section>
+        <h2>Contatos</h2>
+
+        <form action="https://api.staticforms.xyz/submit" method="post" id="form">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu E-mail" autocomplete="off" required>
+
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+
+
+            <input type="hidden" name="accessKey" value="dd068b55-26cb-448e-a272-fcd92899d142">
+
+            <input type="hidden" name="redirectTo" value="https://jolly-bavarois-678567.netlify.app/obrigado">
+        </form>
+    </section>
+</body>
+
+</html>
